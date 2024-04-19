@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>PayloadDisplayName</key>
+    <string> DNS Binn Editor IOS  </string>
+    <key>PayloadDescription</key>
+    <string>                    Binn Fix IOS Editor  
+1. Tuyệt đối Không dùng VPN khi sử dụng cấu hình DNS này !
+2. Chặn mặc định trên thiết bị không qua trung gian nào !
+3. Hỗ trợ nâng cấp ios không bị black list apps ! 
+4. Chặn quảng cáo và chặn thu hồi chứng chỉ apple !
+Contact By Hack Ib Zl : 0886027352( Binn ) 
+</string>
+     <key>PayloadIdentifier</key>
+    <string>com.cloudflare.warp.fce662ea-7250-4acc-8d57-7e4449086d8a.profile</string>
+    <key>PayloadScope</key>
+    <string>User</string>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadUUID</key>
+    <string>A1E2F262-DB73-40F6-BD22-2E42A43A3C94.fce662ea-7250-4acc-8d57-7e4449086d8a</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+    <key>PayloadContent</key>
+    <array>
+      <dict>
+        <key>DNSSettings</key>
+        <dict>
+          <key>DNSProtocol</key>
+          <string>HTTPS</string>
+          <key>ServerURL</key>
+          <string>https://qikzyc2bzv.cloudflare-gateway.com/dns-query</string>
+        </dict>
+        <key>OnDemandRules</key>
+        <array>
+          <dict>
+            <key>Action</key>
+            <string>EvaluateConnection</string>
+            <key>ActionParameters</key>
+            <array>
+              <dict>
+                <key>DomainAction</key>
+                <string>NeverConnect</string>
+                <key>Domains</key>
+                <array>
+                  <string>dav.orange.fr</string>
+                  <string>msg.t-mobile.com</string>
+                </array>
+              </dict>
+            </array>
+          </dict>
+          <dict>
+            <key>Action</key>
+            <string>Connect</string>
+          </dict>
+        </array>
+        <key>PayloadType</key>
+        <string>com.apple.dnsSettings.managed</string>
+        <key>PayloadIdentifier</key>
+        <string>com.cloudflare.warp.fce662ea-7250-4acc-8d57-7e4449086d8a.profile.dnsSettings.managed</string>
+        <key>PayloadUUID</key>
+        <string>A1E2F262-DB73-40F6-BD22-2E42A43A3C94.fce662ea-7250-4acc-8d57-7e4449086d8a.dnsSettings.managed</string>
+        <key>PayloadDisplayName</key>
+        <string>2. DNS Chặn Black List  Apps </string>
+        <key>PayloadOrganization</key>
+        <string> Bin Fix </string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+      </dict>
+      <!-- DNS Editer -->
+<dict>
+<key>DNSSettings</key>
+<dict>
+<key>DNSProtocol</key>
+<string>HTTPS</string>
+<key>ServerURL</key>
+<string>https://apple.dns.nextdns.io/ce2ce1/binn</string>
+<key>SupplementalMatchDomains</key>
+<array>
+<string>.certs.apple.com</string>
+<string>.certs2.apple.com</string>
+<string>.crl.apple.com</string>
+<string>.ff.apple.com</string>
+<string>.ffapple.com</string>
+<string>.mesu.apple.com</string>
+<string>.ocsp.apple.com</string>
+<string>.ocsp2.apple.com</string>
+<string>.ocsp3.apple.com</string>
+<string>.ocsp4.apple.com</string>
+<string>.valid.apple.com</string>
+<string>appattest.apple.com</string>
+<string>axm-app.apple.com</string>
+<string>certs.apple.com</string>
+<string>certs2.apple.com</string>
+<string>comm-cohort.ess.apple.com</string>
+<string>comm-main.ess.apple.com</string>
+<string>crl.apple.com</string>
+<string>ff.apple.com</string>
+<string>ff2.apple.com</string>
+<string>ff2apple.com</string>
+<string>ffapple.com</string>
+<string>gdmf.apple.com</string>
+<string>guzzoni-apple-com.v.aaplimg.com</string>
+<string>mesu.apple.com</string>
+<string>ocsp.apple.com</string>
+<string>ocsp2.apple.com</string>
+<string>ocsp3.apple.com</string>
+<string>ocsp4.apple.com</string>
+<string>valid.apple.com</string>
+<string>vpp.itunes.apple.com</string>
+</array>
+</dict>
+<key>OnDemandRules</key>
+<array>
+<dict>
+<key>Action</key>
+<string>Connect</string>
+</dict>
+</array>
+			<key>PayloadDisplayName</key>
+			<string>1. DNS Chặn Thu Hồi Chứng Chỉ </string>
+			<key>PayloadIdentifier</key>
+			<string>io.nextdns.ce2ce1.profile</string>
+			<key>PayloadOrganization</key>
+			<string> Bin Fix </string>
+			<key>PayloadType</key>
+			<string>com.apple.dnsSettings.managed</string>
+			<key>PayloadUUID</key>
+			<string>A1E2F262-DB73-40F6-BD22-2E42A43A3C94.ce2ce1.dnsSettings.managed</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+    <dict>
+			<key>DNSSettings</key>
+			<dict>
+				<key>ServerAddresses</key>
+				<array/>
+				<key>SupplementalMatchDomains</key>
+				<array>
+					  <string>.certs.apple.com</string>
+					  <string>certs.apple.com</string>
+					  <string>.certs2.apple.com</string>
+					  <string>certs2.apple.com</string>
+					  <string>.ocsp4.apple.com</string>
+					  <string>ocsp4.apple.com</string>
+					  <string>.ocsp3.apple.com</string>
+					  <string>ocsp3.apple.com</string>
+					  <string>.ocsp2.apple.com</string>
+					  <string>ocsp2.apple.com</string>
+					  <string>.ocsp.apple.com</string>
+					  <string>ocsp.apple.com</string>
+					  <string>.crl.apple.com</string>
+					  <string>crl.apple.com</string>
+					  <string>.valid.apple.com</string>
+					  <string>valid.apple.com</string>
+					  <string>.ffapple.com</string>
+					  <string>ffapple.com</string>
+					  <string>ff2apple.com</string>
+					  <string>.ffapple.com</string>
+					  <string>ff.apple.com</string>
+					  <string>ff2.apple.com</string>
+					  <string>.ff.apple.com</string>
+					  <string>appattest.apple.com</string>
+					  <string>vpp.itunes.apple.com</string>
+					  <string>comm-main.ess.apple.com</string>
+					  <string>comm-cohort.ess.apple.com</string>
+					  <string>axm-app.apple.com</string>
+					  <string>guzzoni-apple-com.v.aaplimg.com</string>
+       
+				</array>
+			</dict>
+			<key>PayloadDisplayName</key>
+			<string>3. DNS Cập Nhập IOS </string>
+			<key>PayloadIdentifier</key>
+			<string>com.cloudflare.warp.5A31FA24-FF8C-41EA-989E-F070820F2A80</string>
+			<key>PayloadOrganization</key>
+			<string> Bin Fix</string>
+			<key>PayloadType</key>
+			<string>com.apple.dnsSettings.managed</string>
+			<key>PayloadUUID</key>
+			<string>5A31FA24-FF8C-41EA-989E-F070820F2A80</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+    </array>
+  </dict>
+</plist>
